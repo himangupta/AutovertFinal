@@ -167,7 +167,7 @@
                             @if($value->image_url==null || $value->image_url=='')
                                 <img src='/images/no-image.png'>
                             @else
-                                <img src='{{$value->image_url}}'>
+                                <img src='{{$value->image_url}}' style="max-width: 200px !important; max-height: 130px !important;">
                             @endif
                         </center>
                         <hr class="smallhr">
